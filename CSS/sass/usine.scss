@@ -1,0 +1,35 @@
+/* init */
+@import "foundation/settings";
+@import "normalize";
+@import "foundation";
+
+@import "compass/css3";
+
+/* WebFont */
+@include font-face(
+        "elegantlux", font-files("elegantlux-mager-webfont.eot",
+        "elegantlux-mager-webfont.woff",
+        "elegantlux-mager-webfont.ttf",
+        "elegantlux-mager-webfont.eot?#iefix",
+        "elegantlux-mager-webfont.svg#elegantluxmager")
+);
+
+/* Nuancier */
+$blanc:#fefefe;
+$noir:#000;
+$magenta:#ff0c3e;
+$bleu:#00a9ff;
+$gris:#ccc;
+$success:#A9D864;
+$error2:#F99209;
+
+/* Structure */
+html{
+        @import "partials/main";
+        @import "partials/form";
+        @import "partials/header";
+        @import "partials/content";
+        @import "partials/footer";
+}
+
+

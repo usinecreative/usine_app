@@ -1,0 +1,28 @@
+<h1>{{usineapp.claire.contact.titre}}</h1>
+<img src="img/vcard.png" alt="vcard" class="right hide-for-small-only"/>
+<h2><strong>{{usineapp.claire.contact.name}}</strong><br/>{{usineapp.claire.contact.theme}}</h2>
+<p>{{usineapp.claire.contact.desc}}</p>
+<ul id="social">
+    <li ng-repeat="socialURL in usineapp.claire.home.socialURL" id="{{socialURL.reseau}}" >
+        <a href="{{socialURL.url}}" target="_blank"><span>{{socialURL.reseau}}</span></a>
+    </li>
+</ul>
+<p class="separator"><strong>{{usineapp.claire.contact.slogan}}</strong></p>
+<div class="question">
+    <form name="form" method="post" role="form" ng-submit="form.$valid && sendMail($event)" novalidate>
+        <em ng-show="success" class="success">Merci pour votre message</em>
+        <em ng-show="error" class="error">Oup's ! le message n'a pas été envoyé.</em>
+        <em ng-show="!form.$pristine && !form.$valid" class="error2">Merci de compléter chaque champ de ce formulaire.</em>
+        <fieldset>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" ng-model="input.email" required/>
+            </div>
+            <div>
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" ng-model="input.message" required></textarea>
+            </div>
+        </fieldset>
+        <input type="submit" value="Envoyer mon message" name="submit" id="btn_post"/>
+    </form>
+</div>

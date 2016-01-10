@@ -1,0 +1,97 @@
+#content{
+  padding-left: 10px;
+  padding-right: 10px;
+  background: $blanc;
+  float: left;
+  min-height: 280px;
+  @media screen and (min-width: 40em) {
+    padding-left: 45px;
+    background: none;
+    padding-right: 0;
+    border-left: 8px solid $noir;
+    margin-bottom: 170px;
+
+  }
+  @media screen and (min-width: 40em) and (max-width: 63.9375em) {width: 95%;}
+}
+
+/*social btn*/
+#social{text-align: right}
+#social li{ display:inline; margin-right:15px; list-style:none }
+#social li a span{ display:none}
+#social li a{ text-decoration:none; border-radius:200px; display:inline-block; width:27px; height:27px;
+  -webkit-transition: background 0.5s ease;
+  -moz-transition: background 0.5s ease;
+  -ms-transition: background 0.5s ease;
+  -o-transition: background 0.5s ease;}
+#google a{background:url("../img/social_btn.jpg") repeat 0 0;}
+#google a:hover{background:url("../img/social_btn.jpg") repeat -54px 0;}
+#twitter a{background:url("../img/social_btn.jpg") repeat 0 -27px;}
+#twitter a:hover{background:url("../img/social_btn.jpg") repeat -54px -27px;}
+#Pinterest a{background:url("../img/social_btn.jpg") repeat 0 -54px;}
+#Pinterest a:hover{background:url("../img/social_btn.jpg") repeat -54px -54px;}
+#git a{background:url("../img/social_btn.jpg") repeat 0 -81px;}
+#git a:hover{background:url("../img/social_btn.jpg") repeat -54px -81px;}
+
+/*Blocs page desgin*/
+#list{float: left;}
+.item{
+  float: left;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid $gris;
+  width: 100%;
+  div, a{ float: left;}
+  a{
+    display: block;
+    overflow: hidden;
+    height: 262px;
+    @media screen and (min-width: 40em) {height: 190px;}
+    @media screen and (max-width: 430px) {height: 180px;}
+    img{
+      margin-top: 0;
+      transition: margin-top 0.5s ease;
+      width: 100%;
+      max-width: 411px;
+      @media screen and (min-width: 40em){
+        min-width: 305px;
+        max-width: 305px;
+      }
+      @media screen and (max-width: 430px) {
+        min-width: 300px;
+        max-width: 300px;
+      }
+      &:hover{
+        margin-top: -517px;
+        @media screen and (min-width: 40em) {margin-top: -390px;}
+        @media screen and (max-width: 430px) {margin-top: -380px;}
+      }
+    }
+  }
+  div{
+    padding-left: 20px;
+  }
+}
+.item2{
+  float: left;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid $gris;
+  width: 100%;
+  img{
+    width: 100%;
+    max-width: 432px;
+  }
+  div, a{ float: left;}
+  div{
+    padding-left: 20px;
+  }
+}
+
+/*contact*/
+.separator{
+  padding-top: 10px;
+  margin-top: 40px;
+  border-top: 1px solid $gris;
+  clear: both;
+}

@@ -1,0 +1,16 @@
+body{
+  background:  $blanc;
+}
+
+h1{font:normal 3em "elegantlux",Arial, verdana;  margin-bottom: 40px}
+h2{font:normal 1.5em "elegantlux",Arial, verdana; text-transform: uppercase; }
+h2 strong{text-transform: none; }
+
+.inner-wrap{
+  background: $blanc;
+  @media screen and (min-width: 40em) {
+    background: url("../img/bg-body.png") no-repeat left top $blanc;
+  }
+}
+
+.off-canvas-list a{font-family:"elegantlux",Arial, verdana; text-transform: uppercase;}

@@ -1,0 +1,22 @@
+<h1>{{usineapp.claire.design.titre}}</h1>{{title}}
+<div id="list">
+    <div ng-repeat="data in usineapp.claire.design.data" class="item">
+        <a href="{{data.website_url}}" class="small-12 medium-7 large-6" target="_blank">
+            <img ng-src="img/vignettes/{{data.img_name}}" alt="{{data.img_name}}"  />
+        </a>
+        <div class="small-12 medium-5 large-6">
+            <h2>{{data.title}}</h2>
+            <p>{{data.desc}}</p>
+        </div>
+    </div>
+    <div ng-repeat="data2 in usineapp.claire.design.data2" class="item">
+        <a rel="shadowbox" ng-href="img/vignettes/{{data2.img_zoom}}" class="small-12 medium-7 large-6">
+            <img ng-src="img/vignettes/{{data2.img_name}}" alt="{{data2.img_name}}"  />
+        </a>
+        <div class="small-12 medium-5 large-6">
+            <h2>{{data2.title}}</h2>
+            <p>{{data2.desc}}</p>
+        </div>
+    </div>
+</div>
+

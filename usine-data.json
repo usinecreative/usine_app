@@ -1,0 +1,142 @@
+{
+  "home":{
+    "titre" : "Welcome !",
+    "txt" : "Le web est un domaine passionnant qui nous accompagne desormais au quotidien. Mon métier, concevoir des interfaces efficaces et fonctionnelles répondant à vos besoins.",
+    "interets":"Web design / Design graphique / UI UX DESIGN / Développement Web / SEO... ",
+    "socialURL":[
+      {
+        "reseau" : "google",
+        "url": "https://plus.google.com/+claireSassella"
+      },
+      {
+        "reseau" : "twitter",
+        "url": "https://twitter.com/usine_creative"
+      },
+      {
+        "reseau" : "Pinterest",
+        "url": "https://www.pinterest.com/usinecreative/"
+      },
+      {
+        "reseau" : "git",
+        "url": "https://github.com/usinecreative"
+      }
+
+    ]
+
+  },
+  "design" :{
+    "titre": "Graphisme / Webdesign",
+    "data":
+    [
+      {
+        "img_name" : "randocrete.png",
+        "website_url": "http://rando-crete.com/",
+        "title": "Rando Crète",
+        "desc": "Webdesign / Développement"
+      },
+      {
+        "img_name" : "ayurveda.png",
+        "website_url": "http://www.ayurveda-concept.com/",
+        "title": "Ayurveda concept",
+        "desc": "Webdesign / Développement"
+      }
+    ],
+    "data2":[
+      {
+        "img_name" : "byteclub.png",
+        "img_zoom": "mascotte.jpg",
+        "title": "Logo Byte Club",
+        "desc": "Illustrator"
+      },
+      {
+        "img_name" : "usineillu.png",
+        "img_zoom": "usine_05.jpg",
+        "title": "Usine",
+        "desc": "Illustrator"
+      },
+      {
+        "img_name" : "illutracto.png",
+        "img_zoom": "tracto.jpg",
+        "title": "Tracto",
+        "desc": "Illustrator"
+      }
+    ]
+  },
+  "origami":{
+    "titre": "Origami",
+    "data":
+    [
+      {
+        "img_name" : "23.jpg",
+        "src_url": "https://itunes.apple.com/fr/app/decoration-en-papier-par-claire/id756848975",
+        "title": "Ebook @ Citronours Media",
+        "desc": "Disponible dans l'App Store",
+        "label":"En savoir+"
+      },
+      {
+        "img_name" : "24.jpg",
+        "src_url": "https://www.facebook.com/media/set/?set=a.713180025367602.1073741832.120290324656578&type=3",
+        "title": "Yoshizawa Butterfly",
+        "desc": "DIY - Tables en Fête de Roquefort Papillon",
+        "label":"En savoir+"
+      },
+      {
+        "img_name" : "2.jpg",
+        "src_url": "https://docs.google.com/file/d/0B14uFBcLkx1mVUpfNUdTQUJEZmM/edit?usp=sharing",
+        "title": "Sonobe",
+        "desc": "12 modules",
+        "label":"Diagram"
+      },
+      {
+        "img_name" : "8.jpg",
+        "src_url": "https://docs.google.com/file/d/0B14uFBcLkx1mTHU4ZVpyYXVsdU0/edit?usp=sharing",
+        "title": "traditional origami cube",
+        "desc": "12 modules",
+        "label":"Diagram"
+      },
+      {
+        "img_name" : "10.jpg",
+        "src_url": "https://docs.google.com/file/d/0B14uFBcLkx1mS29kZXNoLV9oanM/edit?usp=sharing",
+        "title": "Coeur marque-page",
+        "desc": "Origami",
+        "label":"Diagram"
+      },
+      {
+        "img_name" : "3.jpg",
+        "src_url": "http://www.origami-instructions.com/easy-origami-modular-spinner.html",
+        "title": "Diamonds",
+        "desc": "Kusudama 6 modules",
+        "label":"Diagram"
+      },
+      {
+        "img_name" : "6.jpg",
+        "src_url": "https://www.youtube.com/watch?v=QYHqk0ecaks",
+        "title": "Kusudama",
+        "desc": "6 modules",
+        "label":"Vidéo tutorial"
+      },
+      {
+        "img_name" : "1.jpg",
+        "src_url": "https://www.youtube.com/watch?v=-Pmr2fdt_ms",
+        "title": "spirale",
+        "desc": "Tomoko Fuse's Espiral",
+        "label":"Vidéo tutorial"
+      },
+      {
+        "img_name" : "4.jpg",
+        "src_url": "http://fr.clearharmony.net/articles/a31150-Apprendre-l%E2%80%99origami-de-la-fleur-de-Lotus.html",
+        "title": "lotus",
+        "desc": "12 modules",
+        "label":"Tutorial"
+      }
+    ]
+  },
+  "contact":
+    {
+      "titre":"Contact",
+      "name":"Claire Sassella - Usine créative",
+      "theme":"WEBDESIGN & ORIGAMI",
+      "slogan":"N'hésitez pas à me laisser un message !",
+      "desc":"Je partage avec vous coups de coeur et veille technique sur les reseaux sociaux !"
+    }
+  }

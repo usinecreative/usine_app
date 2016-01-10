@@ -1,0 +1,31 @@
+.tab-bar{
+  background: $bleu;
+  height: 80px;
+  padding-top: 20px;
+  @media screen and (min-width: 40em) {
+    background: url("../img/bg-header.png") no-repeat left top ;
+    padding-top: 66px;
+    height: 310px;
+  }
+  .logo{
+    background: url("../img/logo.png") no-repeat left top;
+    display: inline-block;
+    height: 46px;
+    width: 168px;
+    margin-left: 0;
+    @media screen and (min-width: 40em) {
+      margin-left: 40px;
+    }
+    span{ display: none}
+  }
+  .menu-icon span:after{
+    box-shadow: 0 0 0 1px $blanc, 0 7px 0 1px $blanc, 0 14px 0 1px $blanc;
+    @media screen and (min-width: 40em) {
+      box-shadow: 0 0 0 1px $magenta, 0 7px 0 1px $magenta, 0 14px 0 1px $magenta;
+    }
+  }
+}
+ul.off-canvas-list{
+  padding: 50px 0 0 0;
+  li a{text-align: center}
+}

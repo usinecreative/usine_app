@@ -1,0 +1,12 @@
+footer{
+  background: url("../img/bg-footer.png") no-repeat left top;
+  height: 182px;
+  color: $blanc;
+  font-size: 11px;
+  padding: 160px 0 0 20px;
+  @media screen and (min-width: 40em) {
+    text-align: right;
+    color: $noir;
+    padding: 160px 20px 0 0;
+  }
+}

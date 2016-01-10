@@ -6,7 +6,6 @@
 config.rb
 
 .htaccess
-.gitattributes
 404.php
 bower_components/*
 
@@ -57,3 +56,6 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+-htaccess
+*.txt
+*.xml

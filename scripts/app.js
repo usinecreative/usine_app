@@ -5,15 +5,8 @@
 (function(){
     'use strict';
 
-    //var app = angular.module("curriculumVitae", ["firebase","cv"]);
     var app = angular.module('usineapp', ['ngRoute','routeAppControllers']);
 
-    /* app.controller('CvController', function($firebase) {
-     var ref = new Firebase("https://angularjscv.firebaseio.com/");
-     var data_cv = $firebase(ref);
-     CV.claire = data_cv;
-
-     });*/
     app.controller('UsineController', ['$http', function($http) {
         var usine = this;
         usine.claire = [];
@@ -45,7 +38,7 @@
 
     app.config(function($routeProvider, $locationProvider) {
         $routeProvider
-            .when('/home', {
+            .when('/', {
                 templateUrl: 'tpl/home.html',
                 controller: 'HomeController',
                 title:'Claire Sassella : Webdesign, graphisme et origami',
@@ -66,13 +59,14 @@
             when('/contact', {
                 templateUrl: 'tpl/contact.html',
                 controller: 'ContactController',
+                redirectTo:  "/contact",
                 title:'Contact webdesigner, graphiste lyon',
                 desc:'Usine creative : Contatez moi.'
             }).
             otherwise({
-                redirectTo: '/home'
+                redirectTo: '/'
             });
-        $locationProvider.html5Mode(true);
+            $locationProvider.html5Mode(true);
     });
 
 

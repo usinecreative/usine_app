@@ -6,6 +6,7 @@
 config.rb
 
 .htaccess
+.gitattributes
 404.php
 bower_components/*
 

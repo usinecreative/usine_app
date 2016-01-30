@@ -2,7 +2,7 @@
   "home":{
     "titre" : "Welcome !",
     "txt" : "Le web est un domaine passionnant qui nous accompagne desormais au quotidien. Mon métier, concevoir des interfaces efficaces et fonctionnelles répondant à vos besoins.",
-    "interets":"Web design / Design graphique / UI UX DESIGN / Développement Web / SEO... ",
+    "interets":"Design / UI UX / Développement Web / SEO... ",
     "socialURL":[
       {
         "reseau" : "google",
@@ -29,15 +29,15 @@
     "data":
     [
       {
-        "img_name" : "randocrete.png",
-        "website_url": "http://rando-crete.com/",
-        "title": "Rando Crète",
-        "desc": "Webdesign / Développement"
-      },
-      {
         "img_name" : "ayurveda.png",
         "website_url": "http://www.ayurveda-concept.com/",
         "title": "Ayurveda concept",
+        "desc": "Webdesign / Développement"
+      },
+      {
+        "img_name" : "randocrete.png",
+        "website_url": "http://rando-crete.com/",
+        "title": "Rando Crète",
         "desc": "Webdesign / Développement"
       }
     ],

@@ -1,13 +1,13 @@
-<h1>{{usineapp.claire.origami.titre}}</h1>
+<h1>{{::usineapp.claire.origami.titre}}</h1>
 <div id="list">
-    <div ng-repeat="data in usineapp.claire.origami.data" class="item2">
-        <a href="{{data.src_url}}" class="small-12 medium-6 large-6" target="_blank">
-            <img ng-src="img/origami/{{data.img_name}}" alt="{{data.img_name}}"  />
+    <div ng-repeat="data in ::usineapp.claire.origami.data" class="item2">
+        <a href="{{::data.src_url}}" class="small-12 medium-6 large-6" target="_blank">
+            <img ng-src="img/origami/{{::data.img_name}}" alt="{{::data.img_name}}"  />
         </a>
         <div class="small-12 medium-6 large-6">
-            <h2>{{data.title}}</h2>
-            <p>{{data.desc}}</p>
-            <a href="{{data.src_url}}" target="_blank">{{data.label}}</a>
+            <h2>{{::data.title}}</h2>
+            <p>{{::data.desc}}</p>
+            <a href="{{::data.src_url}}" target="_blank">{{::data.label}}</a>
         </div>
     </div>
 </div>

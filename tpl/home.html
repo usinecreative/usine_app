@@ -1,8 +1,8 @@
-<h1>{{usineapp.claire.home.titre}}</h1>
-<p>{{usineapp.claire.home.txt}}</p>
-<p><strong>Interêts : </strong>{{usineapp.claire.home.interets}}</p>
+<h1>{{::usineapp.claire.home.titre}}</h1>
+<p>{{::usineapp.claire.home.txt}}</p>
+<p><strong>Interêts : </strong>{{::usineapp.claire.home.interets}}</p>
 <ul id="social">
-    <li ng-repeat="socialURL in usineapp.claire.home.socialURL" id="{{socialURL.reseau}}" >
-        <a href="{{socialURL.url}}" target="_blank"><span>{{socialURL.reseau}}</span></a>
+    <li ng-repeat="socialURL in ::usineapp.claire.home.socialURL" id="{{::socialURL.reseau}}" >
+        <a href="{{::socialURL.url}}" target="_blank"><span>{{::socialURL.reseau}}</span></a>
     </li>
 </ul>
